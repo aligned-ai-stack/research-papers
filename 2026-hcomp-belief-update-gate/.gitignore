@@ -1,0 +1,6 @@
+review/
+local/
+dist/
+.venv/
+__pycache__/
+*.pyc

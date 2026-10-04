@@ -1,0 +1,262 @@
+[
+  {
+    "path": ".gitattributes",
+    "sha256": "c7a5d10b41bdc1c0fbe1d036fc9ca8a49e2a07992576667b5e49e4eb21e0a4e8",
+    "bytes": 69
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "a06810e7e38e0b4fcd1a2a21f6052696dd9529b5ff5fa30578156505f5f55c2e",
+    "bytes": 53
+  },
+  {
+    "path": "CITATION.cff",
+    "sha256": "b661692805075e350527b2f55f022f50204776d2e455c79cb55f7311b467ce5d",
+    "bytes": 738
+  },
+  {
+    "path": "LICENSE-CODE",
+    "sha256": "dc4aa322c7ece8b711d38a92dfe56d0cfcbb33d73bbbfa189a634e9ef357694b",
+    "bytes": 1109
+  },
+  {
+    "path": "LICENSE-DATA",
+    "sha256": "059abbc7d9d677f295a9eb9075e612961db1789c56c1461b00acabfdf4d96fd3",
+    "bytes": 704
+  },
+  {
+    "path": "README.md",
+    "sha256": "207af9b80d9c53aabb63afb86768be64e73e18a05b6eebecec444579a46c09a3",
+    "bytes": 8717
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/carryover_moderation_ols.csv",
+    "sha256": "88f3335a11a5a4b511d01ffbc300cb91ecabc80ffb464891939f1b8181a3f61a",
+    "bytes": 3571
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/classification_agreement_by_task.csv",
+    "sha256": "129cd5d610ce7cd1f5045fa0023901da35f596fbee1a8918a6060a3eeddb02ba",
+    "bytes": 637
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/classification_coverage.csv",
+    "sha256": "3336d11771dbc468b4b5084867d8a908c37cc5feb5b7934589b6b371d8809869",
+    "bytes": 382
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/conditional_update_magnitude_ols.csv",
+    "sha256": "5182e5d64afb9be7373ebf05b6199bf479e31bdec914836e3038d61374c9806d",
+    "bytes": 3700
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/objective_accuracy_validation.csv",
+    "sha256": "855bb66a8527113f8e840e1edfb95a00bcbed1038907a159c8989756889a9653",
+    "bytes": 179
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/task_level_delegation_ols.csv",
+    "sha256": "8bb67069595777b9c651d46f694d84f5966f72570ee4dd50fec22882fffaed66",
+    "bytes": 2569
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/trial_level_delegation_logit.csv",
+    "sha256": "298e9ca85c6dfddf484b7b81ff37c3fb1127c1cf026f39bbee0feddcf1d3c4e1",
+    "bytes": 5256
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/update_gate_logit.csv",
+    "sha256": "d2349fdd6cb770774c7c56fcecc7eae5cee80dce94f13ee550aa98a60a5c6345",
+    "bytes": 4085
+  },
+  {
+    "path": "analysis/data/followup_outputs/markov_hmm_analysis/feedback_transition_contrast_conditioned_3state.csv",
+    "sha256": "08cb795c0b29fa843c0513df8fb1c3a080a383b249ae4290b0b830b763920039",
+    "bytes": 765
+  },
+  {
+    "path": "analysis/data/followup_outputs/markov_hmm_analysis/model_comparison.csv",
+    "sha256": "1a937713021b0f976c03c1ee58209a004d42328495849e00cec29bd708005ad2",
+    "bytes": 1330
+  },
+  {
+    "path": "analysis/data/followup_outputs/markov_hmm_analysis/observed_delegation_transitions.csv",
+    "sha256": "6dbe455ca69dfd928c9b057e355fa2a057325e6067765d41da6a4da59e7e433d",
+    "bytes": 164
+  },
+  {
+    "path": "analysis/data/followup_outputs/markov_hmm_analysis/state_parameters_conditioned_3state.csv",
+    "sha256": "a8398ad0d3178a4c874e7964b305236b1a36de474e38763f823c3dcac954e18f",
+    "bytes": 370
+  },
+  {
+    "path": "analysis/data/followup_outputs/markov_hmm_analysis/transition_matrices_conditioned_3state.csv",
+    "sha256": "0a5e6d5116a1b8ba0620d8a5555130f7197cef1425642833059a29cfe7ed62be",
+    "bytes": 805
+  },
+  {
+    "path": "analysis/data/followup_outputs/robust_belief_model_comparison/canonical_aicc_winner_counts.csv",
+    "sha256": "7cfd14f67c7b9f6895d42e1aa17122d4114c957eeb0329cef974554c6d09e45d",
+    "bytes": 871
+  },
+  {
+    "path": "analysis/data/followup_outputs/robust_belief_model_comparison/canonical_bic_winner_counts.csv",
+    "sha256": "e0ddbff83601494f36ac3f384bd63de69db6822c991dd8b57148c8d81c6694b3",
+    "bytes": 855
+  },
+  {
+    "path": "analysis/data/followup_outputs/robust_belief_model_comparison/canonical_future_block_winner_counts.csv",
+    "sha256": "1848656fc78519923dabb362fd653347de5e509e4b516867e7830a310b31e02d",
+    "bytes": 841
+  },
+  {
+    "path": "analysis/data/followup_outputs/robust_belief_model_comparison/model_recovery_accuracy_summary.csv",
+    "sha256": "869f90664c71d13e6aba10bb6cc5795e1a441151bea87f2125889882d009c93d",
+    "bytes": 780
+  },
+  {
+    "path": "analysis/data/followup_outputs/robust_belief_model_comparison/model_specifications.csv",
+    "sha256": "afa54454c6d31876865f857c09ad79dfb5ed09236802273239cdf4265c4731c4",
+    "bytes": 3631
+  },
+  {
+    "path": "analysis/data/followup_outputs/update_gate_robustness/conditional_movement_threshold_ols_models.csv",
+    "sha256": "de2e7bea250899c21d611179145f7a22d79f148a65e847b30675c692fd04a41e",
+    "bytes": 10064
+  },
+  {
+    "path": "analysis/data/followup_outputs/update_gate_robustness/slope_decomposition_bootstrap_summary.csv",
+    "sha256": "fd41b1f93724ed9262b6abaa0b58dad15cee75c7179206ca84db5894e3db8067",
+    "bytes": 574
+  },
+  {
+    "path": "analysis/data/followup_outputs/update_gate_robustness/update_gate_threshold_logit_models.csv",
+    "sha256": "514c82dc12e52f51496d6d3fee5fff9a2f4cf2d82448b748801003853b75b73a",
+    "bytes": 11687
+  },
+  {
+    "path": "analysis/data/followup_outputs/update_gate_robustness/update_gate_threshold_sensitivity.csv",
+    "sha256": "b8dd5826b80b5fe6c9143a6dcc064fe3fb8610a0204f8fc105f1abca4f75debe",
+    "bytes": 826
+  },
+  {
+    "path": "analysis/scripts/H2.py",
+    "sha256": "83f9b10f68d1c4d37a53df99e986b9ceee9b4f8ce446371f972ff057e9631f29",
+    "bytes": 24581
+  },
+  {
+    "path": "analysis/scripts/chi_style_sns.py",
+    "sha256": "6d915af31ad5c5543ffe54a9691ea73c4f7ec9835316cffb3c9850e24d34d24d",
+    "bytes": 1949
+  },
+  {
+    "path": "analysis/scripts/extension/divisible_updating.py",
+    "sha256": "faef76f1572cb687805c65c10182c39379ee601b118d4e017a1387b5d72b93dc",
+    "bytes": 20534
+  },
+  {
+    "path": "analysis/scripts/extension/extension_behavioral_pipeline.py",
+    "sha256": "44f0c614a24da07c25b3a885b9ebd3d8ec18ce26a7be56adb0add7ecc41c6550",
+    "bytes": 31795
+  },
+  {
+    "path": "analysis/scripts/extension/h2_no_update_diagnostics.py",
+    "sha256": "b06edd80f5110cf718625179f9ad2ce830abb69c7ace6d33a3cf0c01be713d5a",
+    "bytes": 7454
+  },
+  {
+    "path": "analysis/scripts/extension/hidden_update_plausibility.py",
+    "sha256": "d8a0e02d1739940b04918f7fcb5371f1093034c9c2b10142e06c7680d00fc400",
+    "bytes": 22074
+  },
+  {
+    "path": "analysis/scripts/extension/markov_hmm_analysis.py",
+    "sha256": "d6cd9e4091a30f998af408d4b653486d130f31659cabd4bf7cbf878328cd0f39",
+    "bytes": 42549
+  },
+  {
+    "path": "analysis/scripts/extension/paper_consistency_check.py",
+    "sha256": "a46e2abc16aff5e78d6dff7f3b2c346bdb5a410377952ae1f0ddb0b2ac48ccb4",
+    "bytes": 3624
+  },
+  {
+    "path": "analysis/scripts/extension/plot_markov_hmm_figure.py",
+    "sha256": "d3072166aea70f443cf76f783189447f8f8514122269d887bb9502b6b0198937",
+    "bytes": 5962
+  },
+  {
+    "path": "analysis/scripts/extension/plot_markov_hmm_figure_adjusted.py",
+    "sha256": "18c476917143c2ba82f5606f9f93517e869dbfa21358c98790d04a09b4bef4ec",
+    "bytes": 6314
+  },
+  {
+    "path": "analysis/scripts/extension/primary_model_winner_summary.py",
+    "sha256": "623dd1cfe90ae7910eab9ca74ccb93cc7927fdc8c7868b8166d500d85c4b8c85",
+    "bytes": 5159
+  },
+  {
+    "path": "analysis/scripts/extension/robust_belief_model_comparison.py",
+    "sha256": "f5f0050c6cd0f7cff9daa6ed023b1f2a785057b196333b435a34ff2de27b5660",
+    "bytes": 50436
+  },
+  {
+    "path": "analysis/scripts/extension/run_extension_analysis_pipeline.py",
+    "sha256": "f477fe193f308062cd3adbb300e4e31841d706d9387adb5bda7343fff2307fb9",
+    "bytes": 9988
+  },
+  {
+    "path": "analysis/scripts/extension/self_confidence_inertia_diagnostics.py",
+    "sha256": "a0a79c4802d840ffe71bc1e93abb09343672ce0756fa421b64b6eb851a1f9e95",
+    "bytes": 25834
+  },
+  {
+    "path": "analysis/scripts/extension/update_gate_robustness.py",
+    "sha256": "e6790e273e90420f4c9dcb3a3c18853244887898ce7273d959ffc99b6538de0c",
+    "bytes": 14179
+  },
+  {
+    "path": "data/dictionary.json",
+    "sha256": "591c505d4f2a0b8ac9b5a701926a9704010229c50bc992b2a39b3f6f459c12f0",
+    "bytes": 3092
+  },
+  {
+    "path": "data/study-summary.json",
+    "sha256": "e28f1f5a67f5e18f2c6c59a3409007c1f223ea1eaf7fa0c35284dd660f09a95b",
+    "bytes": 358
+  },
+  {
+    "path": "data/table-catalog.json",
+    "sha256": "36d6b95d096ca2090006202cbc47a6b9156586570fc0bb7b9486b01f7f4a6246",
+    "bytes": 8916
+  },
+  {
+    "path": "deposit-metadata.json",
+    "sha256": "b0881e03eeadeb2f6dd2e09284d58b8b1bc44bc74dee3d5ec031b51ac959fcef",
+    "bytes": 1459
+  },
+  {
+    "path": "release.py",
+    "sha256": "e88b3f954b10270bf125b0c0481e7521c672237514656994e3a06f12a173463b",
+    "bytes": 1651
+  },
+  {
+    "path": "requirements-lock.txt",
+    "sha256": "ccc001a1b464251da8138db3715d4612f5b170e5f289482e11267c97fa81d296",
+    "bytes": 398
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "2e7dc064d12dd50beb9a680415432cce24b97958348e5e6e0e851f5297452752",
+    "bytes": 56
+  },
+  {
+    "path": "validation-summary.json",
+    "sha256": "ae7bb1602c9914068fc207dd656ec0fa5da58f23fd0ee4f946544e3353096ac6",
+    "bytes": 1792
+  },
+  {
+    "path": "verify.py",
+    "sha256": "6168e39b80fc3d420f8453c2f18b7267dea623127401575a851d4fd1d547a63f",
+    "bytes": 7324
+  }
+]

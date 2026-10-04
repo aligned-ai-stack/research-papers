@@ -1,0 +1,19 @@
+model,family,scope,k,grid_size,description,parameterization
+no_update,inertia,primary_generative,0,1,Reported belief stays at task prior.,No free parameter.
+standard_bayes,bayesian,primary_generative,0,1,Full Beta-Bayes benchmark.,lambda fixed at 1.
+divisible_weighted_bayes,bayesian_weighted,primary_generative,1,101,Path-independent cumulative updating with one evidence weight.,"lambda grid [0.00, 5.00], 101 values."
+discounted_bayes_gamma,recency_discounted,primary_generative,1,41,Bayesian filter with exponentially discounted older evidence.,"gamma grid [0.00, 1.00], 41 values; gamma=1 is no forgetting."
+discounted_weighted_bayes,recency_discounted,primary_generative,2,1464,Hybrid model with global evidence weight lambda and memory retention gamma.,"lambda grid [0.00, 3.00], gamma grid includes [np.float64(0.0), np.float64(0.05), np.float64(0.1), np.float64(0.15), np.float64(0.2), np.float64(0.25), np.float64(0.3), np.float64(0.35), np.float64(0.4), np.float64(0.45), np.float64(0.5), np.float64(0.55), np.float64(0.6), np.float64(0.65), np.float64(0.7), np.float64(0.75), np.float64(0.8), np.float64(0.85), np.float64(0.85), np.float64(0.9), np.float64(0.95), np.float64(0.95), np.float64(0.99), np.float64(1.0)]."
+coarse_weighted_bayes,coarse,primary_generative,2,305,Weighted Bayes followed by equal-width belief rounding.,"lambda grid [0.00, 3.00], widths=[0.01, 0.02, 0.05, 0.1, 0.2]."
+sticky_weighted_bayes,response_expression,primary_generative,2,1281,Weighted Bayesian latent updating with sticky reported-belief expression.,lambda controls latent evidence weight; stickiness controls partial movement of reports toward the latent state.
+threshold_bayes,inattention,primary_generative,1,61,Update only when Bayesian move exceeds a threshold.,threshold is an absolute probability-scale move from 0 to 0.30.
+rescorla_wagner,prediction_error,primary_generative,1,101,Prediction-error update toward the binary AI outcome.,alpha learning-rate grid from 0 to 1.
+good_bad_news,asymmetry,primary_generative,2,441,Separate prediction-error rates for AI successes and failures.,"alpha_good and alpha_bad grids from 0 to 1, 21 values each."
+confirmatory_misperception,confirmation,primary_generative,2,671,Belief-incongruent evidence is partially distorted toward current belief.,lambda controls evidence weight; q controls incongruent-signal distortion.
+anchoring_to_prior,anchoring,primary_generative,1,101,Move partway from task prior toward the Bayesian posterior.,adjustment grid from 0 to 2; values below 1 are conservative.
+sublinear_sample_size,sample_size_distortion,primary_generative,1,76,Effective sample size grows as t^gamma.,gamma below 1 means evidence accumulates sublinearly.
+partial_step,linear_norm_step,conditional_update_robustness,2,closed_form_ols_or_grid_tau,Linear partial response to Bayesian step.,OLS delta model: intercept + sigma*norm_step.
+t1_spike,first_impression,conditional_update_robustness,2,closed_form_ols_or_grid_tau,A one-time first-trial shift.,OLS delta model with trial-1 indicator.
+asymmetric,norm_step_asymmetry,conditional_update_robustness,3,closed_form_ols_or_grid_tau,Separate slopes for positive and negative Bayesian steps.,OLS delta model with positive and negative norm_step components.
+recency,heuristic,conditional_update_robustness,2,closed_form_ols_or_grid_tau,Move toward running AI accuracy.,OLS delta model using running accuracy minus current belief.
+changepoint,phase_change,conditional_update_robustness,4,closed_form_ols_or_grid_tau,Different norm-step slopes before and after a fitted trial cutoff.,OLS delta model with tau in 1..9.

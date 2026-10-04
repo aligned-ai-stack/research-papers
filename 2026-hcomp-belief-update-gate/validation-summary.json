@@ -1,0 +1,41 @@
+{
+  "public_summary_checks": "passed",
+  "full_18_model_grid_refitted": false,
+  "full_hmm_grid_refitted": false,
+  "bootstrap_1000_draws_max_abs_error": 2.1649348980190553e-15,
+  "bootstrap_sufficient_statistics_crosscheck": "Original algorithm first 3 draws match; all 1000 match stored draws.",
+  "h2_panel_and_qc_reconstruction": "passed",
+  "h2_rows": {
+    "strict": 3430,
+    "lenient": 5670,
+    "hybrid_S5": 6560,
+    "hybrid_S10": 6560,
+    "hybrid_S20": 6560
+  },
+  "behavioral_panel_reconstruction": "passed",
+  "slope_point_estimate_reproduction": "passed",
+  "hmm_split_integrity": "passed",
+  "verification_date": "2026-10-04",
+  "canonical_regression_max_abs_errors": {
+    "update_gate_logit.csv": 2.0028423364237824e-13,
+    "conditional_update_magnitude_ols.csv": 7.105427357601002e-14,
+    "trial_level_delegation_logit.csv": 3.495870259939693e-11,
+    "task_level_delegation_ols.csv": 1.3589129821411916e-13,
+    "carryover_moderation_ols.csv": 9.50350909079134e-14
+  },
+  "hmm_refit": {
+    "one_state_conditioned_and_pooled_models": "match stored reference within 1e-9",
+    "higher_state_models": "not refitted"
+  },
+  "privacy_source_text_files_scanned": 5405,
+  "source_files_with_known_identifiers": 73,
+  "prepared_original_identifiers_found": 0,
+  "publication_doi": "10.1145/3834580.3838740",
+  "anonymity": "Detailed trajectories are de-identified, not certified anonymous; excluded from public archive.",
+  "limitations": [
+    "Higher-state HMM and full trajectory model grids not refitted.",
+    "Historical sensitivity behavioral outputs include 243 participants.",
+    "Public aggregate package alone cannot refit participant-level models.",
+    "Consent-version/access review and repository deposit remain."
+  ]
+}

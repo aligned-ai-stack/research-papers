@@ -1,0 +1,328 @@
+[
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/carryover_moderation_ols.csv",
+    "rows": 20,
+    "columns": [
+      "term",
+      "coef",
+      "se_cluster",
+      "t_cluster",
+      "se_hc1",
+      "t_hc1",
+      "n",
+      "n_clusters",
+      "cluster_col",
+      "r2"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/classification_agreement_by_task.csv",
+    "rows": 3,
+    "columns": [
+      "taskType",
+      "participant_tasks",
+      "bic_aicc_agreement",
+      "aicc_future_agreement",
+      "mean_bic_winner_weight",
+      "mean_near_tie_models_delta_bic_2",
+      "mean_aicc_winner_weight",
+      "mean_near_tie_models_delta_aicc_2",
+      "aicc_uncertain_share"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/classification_coverage.csv",
+    "rows": 7,
+    "columns": [
+      "group",
+      "level",
+      "participant_tasks",
+      "classified_tasks",
+      "not_classified_tasks",
+      "classified_share"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/conditional_update_magnitude_ols.csv",
+    "rows": 22,
+    "columns": [
+      "term",
+      "coef",
+      "se_cluster",
+      "t_cluster",
+      "se_hc1",
+      "t_hc1",
+      "n",
+      "n_clusters",
+      "cluster_col",
+      "r2"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/objective_accuracy_validation.csv",
+    "rows": 3,
+    "columns": [
+      "taskType",
+      "observed_ai_accuracy",
+      "expected_ai_accuracy",
+      "abs_diff",
+      "n_trials",
+      "passes_tolerance_001"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/task_level_delegation_ols.csv",
+    "rows": 15,
+    "columns": [
+      "term",
+      "coef",
+      "se_cluster",
+      "t_cluster",
+      "se_hc1",
+      "t_hc1",
+      "n",
+      "n_clusters",
+      "cluster_col",
+      "r2"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/trial_level_delegation_logit.csv",
+    "rows": 28,
+    "columns": [
+      "term",
+      "coef",
+      "se_cluster",
+      "z_cluster",
+      "se_mle",
+      "z_mle",
+      "odds_ratio",
+      "n",
+      "n_clusters",
+      "cluster_col",
+      "log_likelihood"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/behavioral_extension_pipeline/update_gate_logit.csv",
+    "rows": 22,
+    "columns": [
+      "term",
+      "coef",
+      "se_cluster",
+      "z_cluster",
+      "se_mle",
+      "z_mle",
+      "odds_ratio",
+      "n",
+      "n_clusters",
+      "cluster_col",
+      "log_likelihood"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/markov_hmm_analysis/feedback_transition_contrast_conditioned_3state.csv",
+    "rows": 3,
+    "columns": [
+      "states",
+      "transition_mode",
+      "from_state",
+      "negative_stay_probability",
+      "positive_stay_probability",
+      "positive_minus_negative_stay",
+      "negative_up_probability",
+      "positive_up_probability",
+      "positive_minus_negative_up",
+      "negative_down_probability",
+      "positive_down_probability",
+      "negative_minus_positive_down"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/markov_hmm_analysis/model_comparison.csv",
+    "rows": 8,
+    "columns": [
+      "states",
+      "transition_mode",
+      "parameters",
+      "iterations",
+      "train_log_likelihood",
+      "train_observations",
+      "train_avg_log_likelihood",
+      "test_log_likelihood",
+      "test_observations",
+      "test_avg_log_likelihood",
+      "aic",
+      "bic"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/markov_hmm_analysis/observed_delegation_transitions.csv",
+    "rows": 4,
+    "columns": [
+      "from_delegation",
+      "to_delegation",
+      "count",
+      "probability"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/markov_hmm_analysis/state_parameters_conditioned_3state.csv",
+    "rows": 3,
+    "columns": [
+      "states",
+      "transition_mode",
+      "state",
+      "initial_prob",
+      "belief_mean",
+      "belief_sd",
+      "delegation_probability"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/markov_hmm_analysis/transition_matrices_conditioned_3state.csv",
+    "rows": 18,
+    "columns": [
+      "states",
+      "transition_mode",
+      "feedback",
+      "from_state",
+      "to_state",
+      "probability"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/robust_belief_model_comparison/canonical_aicc_winner_counts.csv",
+    "rows": 18,
+    "columns": [
+      "model",
+      "wins",
+      "share",
+      "winner_rule"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/robust_belief_model_comparison/canonical_bic_winner_counts.csv",
+    "rows": 18,
+    "columns": [
+      "model",
+      "wins",
+      "share",
+      "winner_rule"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/robust_belief_model_comparison/canonical_future_block_winner_counts.csv",
+    "rows": 13,
+    "columns": [
+      "model",
+      "wins",
+      "share",
+      "winner_rule"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/robust_belief_model_comparison/model_recovery_accuracy_summary.csv",
+    "rows": 14,
+    "columns": [
+      "winner_rule",
+      "generating_model",
+      "n",
+      "exact_recovery_rate",
+      "modal_recovered_model",
+      "modal_recovered_share"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/robust_belief_model_comparison/model_specifications.csv",
+    "rows": 18,
+    "columns": [
+      "model",
+      "family",
+      "scope",
+      "k",
+      "grid_size",
+      "description",
+      "parameterization"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/update_gate_robustness/conditional_movement_threshold_ols_models.csv",
+    "rows": 88,
+    "columns": [
+      "threshold",
+      "term",
+      "coef",
+      "se_cluster",
+      "t_cluster",
+      "n",
+      "n_clusters",
+      "r2"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/update_gate_robustness/slope_decomposition_bootstrap_summary.csv",
+    "rows": 6,
+    "columns": [
+      "subset",
+      "point_estimate",
+      "ci_low",
+      "ci_high",
+      "bootstrap_reps"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/update_gate_robustness/update_gate_threshold_logit_models.csv",
+    "rows": 88,
+    "columns": [
+      "threshold",
+      "term",
+      "coef",
+      "se_cluster",
+      "z_cluster",
+      "odds_ratio",
+      "n",
+      "n_clusters",
+      "log_likelihood"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  },
+  {
+    "path": "analysis/data/followup_outputs/update_gate_robustness/update_gate_threshold_sensitivity.csv",
+    "rows": 4,
+    "columns": [
+      "threshold",
+      "threshold_label",
+      "moved_trials",
+      "moved_share",
+      "gate_abs_feedback_gap_coef",
+      "gate_abs_feedback_gap_z",
+      "gate_abs_feedback_gap_or",
+      "conditional_signed_gap_coef",
+      "conditional_signed_gap_t",
+      "conditional_rows",
+      "conditional_r2"
+    ],
+    "scope": "aggregate historical reference; no participant records"
+  }
+]

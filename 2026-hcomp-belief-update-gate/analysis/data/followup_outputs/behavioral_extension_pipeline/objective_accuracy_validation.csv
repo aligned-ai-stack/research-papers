@@ -1,0 +1,4 @@
+taskType,observed_ai_accuracy,expected_ai_accuracy,abs_diff,n_trials,passes_tolerance_001
+grammar,0.3,0.3,0.0,2400,True
+travel,0.6,0.6,0.0,2400,True
+vqa,0.9,0.9,0.0,2400,True

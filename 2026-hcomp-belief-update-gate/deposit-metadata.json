@@ -1,0 +1,30 @@
+{
+  "title": "Data and analysis underlying The Belief Update Gate: Separating Inertia from Learning in Human-AI Interaction",
+  "creators": [
+    "Shreyan Biswas",
+    "Alexander Erlei",
+    "Ujwal Gadiraju"
+  ],
+  "related_publication_doi": "10.1145/3834580.3838740",
+  "dataset_doi": null,
+  "description": "Analysis software and aggregate outputs for a 240-participant, 7200-trial reanalysis of belief updating. Detailed minimized participant data are prepared separately for access review.",
+  "keywords": [
+    "human-AI interaction",
+    "belief updating",
+    "delegation",
+    "inertia",
+    "HCOMP"
+  ],
+  "public_data_license": "CC-BY-4.0",
+  "code_license": "MIT",
+  "contact": "s.biswas@tudelft.nl",
+  "dmp": "Existing project DMP 175515, Multitask Choice Independence and Bayesian Rationality; user confirms coverage.",
+  "status": "Prepared locally; no repository deposit or DOI reservation performed.",
+  "remaining_deposit_decisions": [
+    "Curator/data-steward decision on detailed trajectory access and residual linkage risk.",
+    "Confirm appropriate consent version: supplied PDF lists loan approval; collected dataset and app use travel.",
+    "Confirm dataset creator roles/contact and select repository subject category."
+  ],
+  "institutional_custodian": "Ujwal Gadiraju, as specified by DMP question 34",
+  "preservation": "At least 10 years, using the chosen institutional repository arrangements."
+}

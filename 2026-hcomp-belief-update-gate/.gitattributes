@@ -1,0 +1,2 @@
+# Preserve the byte checksums recorded in PUBLIC_FILES.json.
+* -text

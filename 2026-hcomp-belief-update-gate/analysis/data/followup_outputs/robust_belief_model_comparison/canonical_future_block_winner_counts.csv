@@ -1,0 +1,14 @@
+model,wins,share,winner_rule
+no_update,250,0.38109756097560976,future_block_rmse
+good_bad_news,149,0.22713414634146342,future_block_rmse
+coarse_weighted_bayes,46,0.0701219512195122,future_block_rmse
+rescorla_wagner,37,0.056402439024390245,future_block_rmse
+confirmatory_misperception,28,0.042682926829268296,future_block_rmse
+sticky_weighted_bayes,25,0.038109756097560975,future_block_rmse
+anchoring_to_prior,22,0.03353658536585366,future_block_rmse
+standard_bayes,22,0.03353658536585366,future_block_rmse
+threshold_bayes,19,0.028963414634146343,future_block_rmse
+sublinear_sample_size,19,0.028963414634146343,future_block_rmse
+discounted_bayes_gamma,17,0.025914634146341462,future_block_rmse
+discounted_weighted_bayes,13,0.019817073170731708,future_block_rmse
+divisible_weighted_bayes,9,0.013719512195121951,future_block_rmse

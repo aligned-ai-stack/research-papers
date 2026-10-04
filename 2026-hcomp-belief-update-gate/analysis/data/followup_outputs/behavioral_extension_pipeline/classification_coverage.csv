@@ -1,0 +1,8 @@
+group,level,participant_tasks,classified_tasks,not_classified_tasks,classified_share
+overall,all,720,656,64,0.9111111111111111
+taskType,grammar,240,223,17,0.9291666666666667
+taskType,travel,240,215,25,0.8958333333333334
+taskType,vqa,240,218,22,0.9083333333333333
+taskPosition,1,240,225,15,0.9375
+taskPosition,2,240,219,21,0.9125
+taskPosition,3,240,212,28,0.8833333333333333

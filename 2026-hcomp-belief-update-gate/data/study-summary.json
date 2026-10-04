@@ -1,0 +1,11 @@
+{
+  "participants": 240,
+  "tasks_per_participant": 3,
+  "trials": 7200,
+  "zero_update_trials": 4848,
+  "zero_update_share": 0.6733333333333333,
+  "absolute_update_below_5_percentage_points_trials": 5500,
+  "absolute_update_below_5_percentage_points_share": 0.7638888888888888,
+  "classified_participant_tasks": 656,
+  "participant_tasks": 720
+}

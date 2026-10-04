@@ -1,0 +1,15 @@
+winner_rule,generating_model,n,exact_recovery_rate,modal_recovered_model,modal_recovered_share
+bic,coarse_weighted_bayes,25,0.04,no_update,0.36
+bic,discounted_weighted_bayes,25,0.04,no_update,0.4
+bic,divisible_weighted_bayes,25,0.08,no_update,0.52
+bic,good_bad_news,25,0.4,good_bad_news,0.4
+bic,no_update,25,0.6,no_update,0.6
+bic,sticky_weighted_bayes,25,0.16,no_update,0.32
+bic,threshold_bayes,25,0.48,threshold_bayes,0.48
+aicc,coarse_weighted_bayes,25,0.04,no_update,0.36
+aicc,discounted_weighted_bayes,25,0.04,no_update,0.44
+aicc,divisible_weighted_bayes,25,0.08,no_update,0.56
+aicc,good_bad_news,25,0.44,good_bad_news,0.44
+aicc,no_update,25,0.64,no_update,0.64
+aicc,sticky_weighted_bayes,25,0.12,no_update,0.32
+aicc,threshold_bayes,25,0.52,threshold_bayes,0.52

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Cite the associated published paper. This preparation package has no dataset DOI yet."
+title: "Data and analysis for The Belief Update Gate"
+type: dataset
+version: 0.1.0
+authors:
+  - family-names: Biswas
+    given-names: Shreyan
+  - family-names: Erlei
+    given-names: Alexander
+  - family-names: Gadiraju
+    given-names: Ujwal
+preferred-citation:
+  type: conference-paper
+  title: "The Belief Update Gate: Separating Inertia from Learning in Human-AI Interaction"
+  authors:
+    - family-names: Biswas
+      given-names: Shreyan
+    - family-names: Erlei
+      given-names: Alexander
+    - family-names: Gadiraju
+      given-names: Ujwal
+  year: 2026
+  doi: 10.1145/3834580.3838740

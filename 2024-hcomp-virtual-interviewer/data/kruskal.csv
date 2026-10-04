@@ -1,0 +1,17 @@
+factor,outcome,H,p,profile
+user_demographic,fairness,28.22615604724728,3.2559310034148348e-06,historical
+user_demographic,spp,34.26923562870214,1.7381293800310266e-07,historical
+user_demographic,privacy_concerns,0.7819640726563608,0.8537759459881558,historical
+user_demographic,impression_management,17.693506941504012,0.0005087328005135629,historical
+interviewer_demographic,fairness,1.3901834855822253,0.9253840748232539,historical
+interviewer_demographic,spp,2.0946616901302066,0.8358978507081867,historical
+interviewer_demographic,privacy_concerns,2.049751166986532,0.8422190811221018,historical
+interviewer_demographic,impression_management,1.7220862630597253,0.8861056017386629,historical
+user_demographic,fairness,28.22615604724728,3.2559310034148348e-06,corrected
+user_demographic,spp,34.26923562870214,1.7381293800310266e-07,corrected
+user_demographic,privacy_concerns,0.4175981466901914,0.9365836118449135,corrected
+user_demographic,impression_management,17.693506941504012,0.0005087328005135629,corrected
+interviewer_demographic,fairness,1.3901834855822253,0.9253840748232539,corrected
+interviewer_demographic,spp,2.0946616901302066,0.8358978507081867,corrected
+interviewer_demographic,privacy_concerns,1.8820626978113917,0.865211405232557,corrected
+interviewer_demographic,impression_management,1.7220862630597253,0.8861056017386629,corrected

@@ -1,0 +1,21 @@
+{
+  "paper_doi": "10.1609/hcomp.v12i1.31596",
+  "cohort": {
+    "raw": 236,
+    "attention_exclusions": 12,
+    "additional_demographic_exclusions": 6,
+    "final": 218
+  },
+  "profiles": {
+    "historical": "Published scoring; ATI extra division retained; safe-storage item unreversed.",
+    "corrected": "ATI on 1-6 mean scale; safe-storage item reversed. SPP component weights unchanged."
+  },
+  "mediation_reference": "Frozen source-order fits; 500 bootstrap samples; seed 42. Randomized local export order preserves coefficients but changes finite bootstrap draws.",
+  "public_data": "Aggregate summaries and model results only; no participant records, IDs, exact ages, free text or item response vectors.",
+  "minimum_marginal_group_size": 24,
+  "validation": {
+    "historical_score_max_absolute_error": 4.440892098500626e-16,
+    "historical_mediation_original_order_max_absolute_error": 3.668176873361517e-13
+  },
+  "preparation_date": "2026-10-04"
+}

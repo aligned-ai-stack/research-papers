@@ -1,0 +1,17 @@
+SPDX-License-Identifier: CC-BY-4.0
+
+The aggregate datasets in data/ (excluding software), their dictionaries and
+the derived figures in figures/ are licensed under the Creative Commons
+Attribution 4.0 International Public License:
+https://creativecommons.org/licenses/by/4.0/
+Legal terms: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: Biswas, Jung, Unnam, Yadav, Gupta and Gadiraju (2024),
+"Hi. I'm Molly, Your Virtual Interviewer!" Exploring the Impact of Race and
+Gender in AI-Powered Virtual Interview Experiences.
+https://doi.org/10.1609/hcomp.v12i1.31596
+
+This package was prepared in 2026. The historical and corrected scoring
+profiles and plotting corrections are described in README.md. Indicate
+changes when redistributing modified data. No participant-level data or
+third-party questionnaire text is granted a licence through this notice.

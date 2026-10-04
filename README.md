@@ -1,0 +1,13 @@
+# Research papers
+
+Self-contained data and software packages for published work. Each paper has its
+own analysis, metadata, citation, licences and allowlisted release archive for
+GitHub and eventual 4TU.ResearchData deposit.
+
+| Paper | Package |
+| --- | --- |
+| HCOMP 2024: virtual interviewer experiences | [Aggregate data and analysis](2024-hcomp-virtual-interviewer/README.md) |
+
+Local participant data and audit history are excluded by Git rules and the
+per-paper release builder. Publish the reviewed release contents, not a copy
+of this entire local folder. No deposit has been submitted.

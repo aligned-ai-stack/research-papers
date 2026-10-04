@@ -1,0 +1,15 @@
+variable,definition,unit,values
+study_id,Random local study ID; no source-ID crosswalk retained,identifier,
+age,"Participant age, exact years retained for local analytical review",years,19-66 observed
+user_demographic,Participant gender/race group as recorded in the historical study,category,Female_Black; Female_White; Male_Black; Male_White
+interviewer_demographic,Randomly assigned avatar gender/race condition,category,six original conditions
+ati,Historical affinity-for-technology item mean divided by nine again,historical units,1/9 to 6/9 theoretical; intended mean scale is 1-6
+masi,Mean of 30 interview-anxiety items with two communication items reversed,Likert mean,1-5
+fairness,Mean of 10 fairness items across three components,Likert mean,1-7
+spp,"Equal-weight mean of warmth, competence and social presence component means",Likert mean,1-7
+privacy_concerns,PER: mean of five creepiness and five privacy items; safe-storage item historically not reversed,Likert mean,1-7
+impression_management,Mean of four impression-management items,Likert mean,1-5
+perceived_outcome,Single perceived-outcome question,Likert score,1-7
+perceived_warmth,Mean of two warmth items,Likert mean,1-7
+perceived_competence,Mean of two competence items,Likert mean,1-7
+social_presence,Mean of four social-presence items,Likert mean,1-7

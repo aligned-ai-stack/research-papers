@@ -1,0 +1,40 @@
+{
+  "status": "local_release_candidate_not_deposited",
+  "target_repository": "4TU.ResearchData",
+  "title": "Aggregate data and research software for Hi. I'm Molly, Your Virtual Interviewer!",
+  "description": "Aggregate results and executable scoring, statistical analysis and plotting code for a 218-participant virtual-interviewer study. Includes historical reproduction and a separately labelled corrected scoring companion. Participant-level records are excluded.",
+  "version": "0.1.0",
+  "resource_types": [
+    "Dataset",
+    "Software"
+  ],
+  "keywords": [
+    "human-AI interaction",
+    "virtual interviews",
+    "social perception",
+    "fairness"
+  ],
+  "publication_authors": [
+    "Shreyan Biswas",
+    "Ji-Youn Jung",
+    "Abhishek Unnam",
+    "Kuldeep Yadav",
+    "Shreyansh Gupta",
+    "Ujwal Gadiraju"
+  ],
+  "dataset_creators": null,
+  "dataset_doi": null,
+  "related_publication": {
+    "doi": "10.1609/hcomp.v12i1.31596",
+    "relation": "IsSupplementTo"
+  },
+  "data_license": "CC-BY-4.0",
+  "software_license": "MIT",
+  "proposed_access": "Open aggregate data and software",
+  "pending_deposit_fields": [
+    "Confirm dataset creators, affiliations and contact",
+    "Select 4TU subject category",
+    "Provide unsigned participant consent form for repository review; original collection consent is not included"
+  ],
+  "prepared_on": "2026-10-04"
+}

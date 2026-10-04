@@ -1,0 +1,38 @@
+table,column,definition
+descriptives.csv,profile,historical or corrected scoring; see README
+descriptives.csv,factor,Grouping column
+descriptives.csv,group,Demographic group; participant and interviewer margins are separate
+descriptives.csv,outcome,Outcome variable; privacy_concerns denotes combined PER
+descriptives.csv,n,Group sample size
+descriptives.csv,mean,Arithmetic mean
+descriptives.csv,sd,Sample standard deviation (ddof=1)
+kruskal.csv,factor,Grouping column
+kruskal.csv,outcome,Outcome variable; privacy_concerns denotes combined PER
+kruskal.csv,H,Kruskal-Wallis statistic
+kruskal.csv,p,Unadjusted omnibus p-value
+kruskal.csv,profile,historical or corrected scoring; see README
+mediation.csv,path,Model path as labelled by Pingouin
+mediation.csv,coef,Unstandardized path coefficient
+mediation.csv,se,Standard error returned by Pingouin
+mediation.csv,pval,"Path p-value, or Games-Howell pairwise p-value in posthoc"
+mediation.csv,ci_lower,Lower 95% interval endpoint
+mediation.csv,ci_upper,Upper 95% interval endpoint
+mediation.csv,sig,Pingouin p<.05 classification; not an independent interval decision
+mediation.csv,demographic,Participant group contrasted against all remaining participants
+mediation.csv,outcome,Outcome variable; privacy_concerns denotes combined PER
+mediation.csv,bootstrap_samples,Number of resamples for indirect path
+mediation.csv,seed,Random seed
+mediation.csv,profile,historical or corrected scoring; see README
+posthoc.csv,A,First comparison group
+posthoc.csv,B,Second comparison group
+posthoc.csv,mean_A,Mean in group A
+posthoc.csv,mean_B,Mean in group B
+posthoc.csv,diff,Mean A minus mean B
+posthoc.csv,se,Standard error returned by Pingouin
+posthoc.csv,T,Games-Howell t statistic
+posthoc.csv,df,Welch degrees of freedom
+posthoc.csv,pval,"Path p-value, or Games-Howell pairwise p-value in posthoc"
+posthoc.csv,hedges,Hedges standardized effect size
+posthoc.csv,profile,historical or corrected scoring; see README
+posthoc.csv,factor,Grouping column
+posthoc.csv,outcome,Outcome variable; privacy_concerns denotes combined PER

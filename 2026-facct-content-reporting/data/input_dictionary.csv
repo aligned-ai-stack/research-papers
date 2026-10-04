@@ -1,0 +1,13 @@
+variable,definition
+id,"Opaque trial identifier, local inputs only"
+participantId,"Opaque participant identifier shared across two trials, local inputs only"
+postId,Fixed stimulus label; eight illegal-content posts
+correctProvision,Ground-truth legal category
+condition,"manual (Baseline), explainable (XAI), evaluative (EvalAI)"
+errorType,"no_error, near_miss, overbreadth, out_of_scope; manual has no AI manipulation"
+isErrorTrial,Historical trial flag; only interpretable as AI error within AI arms
+accuracyProvision,Binary match to ground-truth provision
+confusionDistance,Ordinal distance 0 correct through 3 farthest
+decisionTimeMs,Recorded decision duration in milliseconds
+chosenAction,Selected moderation action
+outOfScopeChoice,Whether out-of-scope routing was selected

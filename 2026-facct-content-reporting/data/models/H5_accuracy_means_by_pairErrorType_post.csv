@@ -1,0 +1,13 @@
+cond2,pair_errorType,post,acc_bin
+explainable,near_miss,0,0.8846153846153846
+explainable,near_miss,1,0.25
+explainable,overbreadth,0,0.8518518518518519
+explainable,overbreadth,1,0.4444444444444444
+explainable,out_of_scope,0,0.8636363636363636
+explainable,out_of_scope,1,0.7272727272727273
+evaluative,near_miss,0,0.8461538461538461
+evaluative,near_miss,1,0.75
+evaluative,overbreadth,0,0.7916666666666666
+evaluative,overbreadth,1,0.7708333333333334
+evaluative,out_of_scope,0,0.82
+evaluative,out_of_scope,1,0.7

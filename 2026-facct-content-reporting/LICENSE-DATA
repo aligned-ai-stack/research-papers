@@ -1,0 +1,16 @@
+SPDX-License-Identifier: CC-BY-4.0
+
+Aggregate data, dictionaries and derived figures in data/ and figures/ are
+licensed under Creative Commons Attribution 4.0 International:
+https://creativecommons.org/licenses/by/4.0/
+Legal terms: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution: Marie-Therese Sekwenz, Shreyan Biswas, Rita Hermann-Gsenger,
+and Ujwal Gadiraju (2026), AI at the Front Lines of Platform Governance:
+Using LLMs to Support Illegal Content Reporting under the Digital Services Act.
+https://doi.org/10.1145/3805689.3812301
+
+This package includes the documented reproduction and companion analyses
+described in README.md. Indicate modifications when reusing the data.
+Participant-level data, manuscript text, and third-party materials are not
+redistributed or licensed by this notice. Code and its documentation use MIT.

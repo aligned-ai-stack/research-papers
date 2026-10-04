@@ -1,0 +1,99 @@
+{
+  "publication_doi": "10.1145/3805689.3812301",
+  "comparison_manuscript": "https://arxiv.org/html/2605.23676v1",
+  "source_scripts": [
+    "analysis/pipeline/H1_facct.py",
+    "analysis/pipeline/H2_facct.py",
+    "analysis/pipeline/H3_facct.py",
+    "analysis/pipeline/H4_facct.py",
+    "analysis/pipeline/H5_facct.py",
+    "analysis/pipeline/H6_facct.py"
+  ],
+  "trials": 900,
+  "participants": 450,
+  "participants_per_condition": 150,
+  "h3_reported_specification_source": "analysis/notebooks/H3_new.ipynb; saved H3_facct_0301 timing output",
+  "public_records": "Aggregate condition summaries and model tables only. No participant-level inputs.",
+  "preprocessing_boundary": "Starts from the existing final 450-participant cohort. Raw database extraction and the original 489-to-450 exclusion sequence have not been independently reconstructed.",
+  "manuscript_boundary": "ACM and Overleaf were not accessible through the reader. The public author manuscript carries the requested ACM DOI. Local PDFs are earlier anonymous drafts.",
+  "runtime": {
+    "numpy": "2.5.3",
+    "pandas": "2.2.3",
+    "scipy": "1.18.1",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.11.2"
+  },
+  "reproduction_checks": {
+    "H1": [
+      {
+        "file": "H1_exploratory_GLM_covariates_HC1_tidy.csv",
+        "max_coef_error": 5.995204332975845e-15
+      },
+      {
+        "file": "H1_primary_GLM_HC1_tidy.csv",
+        "max_coef_error": 3.552713678800501e-15
+      },
+      {
+        "file": "H1_robustA_GLM_cluster_tidy.csv",
+        "max_coef_error": 3.552713678800501e-15
+      }
+    ],
+    "H2": [
+      {
+        "file": "H2a_primary_prereg_no_caseFE_tidy.csv",
+        "max_coef_error": 6.976055720586682e-08
+      },
+      {
+        "file": "H2a_robust_design_caseFE_tidy.csv",
+        "max_coef_error": 9.012232390914754e-09
+      },
+      {
+        "file": "H2a_robust_order_FE_tidy.csv",
+        "max_coef_error": 2.076279369267464e-08
+      },
+      {
+        "file": "H2b_primary_prereg_no_caseFE_tidy.csv",
+        "max_coef_error": 2.9106172999560087e-08
+      },
+      {
+        "file": "H2b_robust_design_caseFE_tidy.csv",
+        "max_coef_error": 1.7951764505474976e-08
+      },
+      {
+        "file": "H2_robust_covariates_tidy.csv",
+        "max_coef_error": 1.524745939229799e-08
+      }
+    ],
+    "H3": [],
+    "H4": [
+      {
+        "file": "H4_OLS_contrasts.csv",
+        "max_coef_error": 1.2004286453759505e-15
+      },
+      {
+        "file": "H4_OLS_tidy.csv",
+        "max_coef_error": 1.3322676295501878e-14
+      }
+    ],
+    "H5": [
+      {
+        "file": "H5_accuracy_GLM_DiD_tidy.csv",
+        "max_coef_error": 5.995204332975845e-15
+      },
+      {
+        "file": "H5_EoR_FD_OLS_tidy_all.csv",
+        "max_coef_error": 1.8041124150158794e-15
+      },
+      {
+        "file": "H5_EoR_sensitivity_ordered_logit_tidy_all.csv",
+        "max_coef_error": 5.9302649790815565e-08
+      }
+    ],
+    "H6": [
+      {
+        "file": "H6_overbreadth_GLM_tidy.csv",
+        "max_coef_error": 1.1102230246251565e-15
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+condition,trial_type,n_trials,n_participants,n_correct,accuracy
+evaluative,all,300,150,234,0.78
+evaluative,near_miss,52,52,39,0.75
+evaluative,no_error,150,150,123,0.82
+evaluative,out_of_scope,50,50,35,0.7
+evaluative,overbreadth,48,48,37,0.7708333333333334
+explainable,all,300,150,199,0.6633333333333333
+explainable,near_miss,52,52,13,0.25
+explainable,no_error,150,150,130,0.8666666666666667
+explainable,out_of_scope,44,44,32,0.7272727272727273
+explainable,overbreadth,54,54,24,0.4444444444444444
+manual,all,300,150,191,0.6366666666666667

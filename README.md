@@ -7,6 +7,7 @@ GitHub and eventual 4TU.ResearchData deposit.
 | Paper | Package |
 | --- | --- |
 | HCOMP 2024: virtual interviewer experiences | [Aggregate data and analysis](2024-hcomp-virtual-interviewer/README.md) |
+| FAccT 2026: AI-assisted illegal content reporting | [Aggregate data and analysis](2026-facct-content-reporting/README.md) |
 
 Local participant data and audit history are excluded by Git rules and the
 per-paper release builder. Publish the reviewed release contents, not a copy

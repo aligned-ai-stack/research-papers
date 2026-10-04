@@ -1,0 +1,3 @@
+model,term,coef,se,z,p,ci_low,ci_high,OR,OR_low,OR_high
+H6_overbreadth_over_removal,Intercept,1.4816045409242158,0.3538104268981039,4.18756607574743,2.81961945932786e-05,,,4.400000000000001,,
+H6_overbreadth_over_removal,"C(cond2, Treatment(reference='explainable'))[T.evaluative]",0.9162907318740819,0.6351091531096087,1.4427295330066614,0.14909667640378493,,,2.499999999999817,,

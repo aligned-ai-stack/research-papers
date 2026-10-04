@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite the related paper when using this package."
+title: "FAccT 2026 content reporting: aggregate data and reproducible analysis"
+type: software
+version: 0.1.0
+license: MIT
+authors:
+  - family-names: Biswas
+    given-names: Shreyan
+preferred-citation:
+  type: conference-paper
+  title: "AI at the Front Lines of Platform Governance: Using LLMs to Support Illegal Content Reporting under the Digital Services Act"
+  authors:
+    - family-names: Sekwenz
+      given-names: Marie-Therese
+    - family-names: Biswas
+      given-names: Shreyan
+    - family-names: Hermann-Gsenger
+      given-names: Rita
+    - family-names: Gadiraju
+      given-names: Ujwal
+  collection-title: "Proceedings of the 2026 ACM Conference on Fairness, Accountability, and Transparency"
+  year: 2026
+  doi: 10.1145/3805689.3812301

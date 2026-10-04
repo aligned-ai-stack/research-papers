@@ -1,0 +1,11 @@
+model,term,coef,se,z,p,ci_low,ci_high,OR,OR_low,OR_high
+H5_accuracy_GLM_DiD,Intercept,2.0539405131298873,0.34481448000278137,5.9566538885296225,2.574546824470621e-09,,,7.798571010501992,,
+H5_accuracy_GLM_DiD,"C(cond2, Treatment(reference='explainable'))[T.evaluative]",-0.36241975066152166,0.3247887445466267,-1.1158630240325111,0.26448077141109294,,,0.6959901641878923,,
+H5_accuracy_GLM_DiD,"C(pair_errorType, Treatment(reference='near_miss'))[T.overbreadth]",-0.3323505914333887,0.3919886233289753,-0.8478577480409792,0.39651719770469773,,,0.717235822035078,,
+H5_accuracy_GLM_DiD,"C(pair_errorType, Treatment(reference='near_miss'))[T.out_of_scope]",-0.1886705947243278,0.407110950600075,-0.4634377789303637,0.6430506044472333,,,0.828059228852762,,
+H5_accuracy_GLM_DiD,post,-3.1525528017950273,0.4324609227760108,-7.289798073681361,3.1041992293538866e-13,,,0.042742873391219745,,
+H5_accuracy_GLM_DiD,"post:C(pair_errorType, Treatment(reference='near_miss'))[T.overbreadth]",1.207819328784321,0.5406051881964692,2.234198552207327,0.025470011665859264,,,3.346179772760291,,
+H5_accuracy_GLM_DiD,"post:C(pair_errorType, Treatment(reference='near_miss'))[T.out_of_scope]",2.2681121363986163,0.5792900121264382,3.9153309895209603,9.028026876869847e-05,,,9.661144663575882,,
+H5_accuracy_GLM_DiD,"C(cond2, Treatment(reference='explainable'))[T.evaluative]:post",2.5596443279918044,0.5085120256025589,5.033596452234863,4.813624469713884e-07,,,12.931217225530926,,
+H5_accuracy_GLM_DiD,"C(cond2, Treatment(reference='explainable'))[T.evaluative]:post:C(pair_errorType, Treatment(reference='near_miss'))[T.overbreadth]",-0.7610583861721337,0.6367794891189797,-1.1951678707885218,0.232021448828156,,,0.4671717171735961,,
+H5_accuracy_GLM_DiD,"C(cond2, Treatment(reference='explainable'))[T.evaluative]:post:C(pair_errorType, Treatment(reference='near_miss'))[T.out_of_scope]",-2.330755969953395,0.6501448569283357,-3.584979478212361,0.00033710471132066336,,,0.09722222222293653,,

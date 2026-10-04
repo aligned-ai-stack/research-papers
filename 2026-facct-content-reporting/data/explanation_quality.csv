@@ -1,0 +1,13 @@
+condition,outcome,n_trials,n_participants,mean,sd
+evaluative,element_coverage_mean,300,150,3.4383333333333335,1.0743422451689861
+evaluative,proportionality_reasoning_mean,300,150,3.2916666666666665,1.1904429442721927
+evaluative,reasoning_depth_mean,300,150,3.175,1.2013962055913796
+evaluative,perceived_overall_quality_mean,300,150,3.3383333333333334,1.1234936651390521
+explainable,element_coverage_mean,300,150,3.4316666666666666,1.0824677100804339
+explainable,proportionality_reasoning_mean,300,150,3.325,1.211790598597587
+explainable,reasoning_depth_mean,300,150,3.205,1.2105203557861286
+explainable,perceived_overall_quality_mean,300,150,3.345,1.086620516628133
+manual,element_coverage_mean,300,150,3.2983333333333333,1.0758043839210587
+manual,proportionality_reasoning_mean,300,150,3.275,1.2172979837619478
+manual,reasoning_depth_mean,300,150,3.1166666666666667,1.1984056670000698
+manual,perceived_overall_quality_mean,300,150,3.2783333333333333,1.115427189438506

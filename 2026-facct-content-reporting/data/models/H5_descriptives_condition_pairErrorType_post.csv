@@ -1,0 +1,13 @@
+cond2,pair_errorType,post,acc_bin_mean,acc_bin_std,acc_bin_count,element_coverage_mean_mean,element_coverage_mean_std,element_coverage_mean_count,proportionality_reasoning_mean_mean,proportionality_reasoning_mean_std,proportionality_reasoning_mean_count,reasoning_depth_mean_mean,reasoning_depth_mean_std,reasoning_depth_mean_count,perceived_overall_quality_mean_mean,perceived_overall_quality_mean_std,perceived_overall_quality_mean_count
+explainable,near_miss,0,0.885,0.323,52,3.115,1.041,52,3.01,1.148,52,2.798,1.156,52,3.106,1.082,52
+explainable,near_miss,1,0.25,0.437,52,3.25,1.169,52,3.029,1.19,52,3.019,1.196,52,3.125,1.075,52
+explainable,overbreadth,0,0.852,0.359,54,3.407,1.158,54,3.204,1.234,54,3.056,1.208,54,3.222,1.106,54
+explainable,overbreadth,1,0.444,0.502,54,3.398,0.949,54,3.343,1.228,54,3.278,1.208,54,3.324,1.065,54
+explainable,out_of_scope,0,0.864,0.347,44,3.773,1.031,44,3.682,1.177,44,3.511,1.169,44,3.67,0.958,44
+explainable,out_of_scope,1,0.727,0.451,44,3.75,1.014,44,3.818,1.105,44,3.693,1.152,44,3.739,1.102,44
+evaluative,near_miss,0,0.846,0.364,52,3.731,0.926,52,3.423,1.077,52,3.346,1.041,52,3.596,1.029,52
+evaluative,near_miss,1,0.75,0.437,52,3.683,1.029,52,3.413,1.175,52,3.288,1.181,52,3.49,1.073,52
+evaluative,overbreadth,0,0.792,0.41,48,3.312,1.151,48,3.302,1.3,48,3.156,1.238,48,3.208,1.175,48
+evaluative,overbreadth,1,0.771,0.425,48,3.188,0.938,48,3.115,1.098,48,2.906,1.024,48,3.125,1.018,48
+evaluative,out_of_scope,0,0.82,0.388,50,3.41,1.198,50,3.31,1.281,50,3.16,1.334,50,3.38,1.198,50
+evaluative,out_of_scope,1,0.7,0.463,50,3.27,1.112,50,3.17,1.227,50,3.17,1.361,50,3.2,1.212,50

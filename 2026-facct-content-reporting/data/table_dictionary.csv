@@ -1,0 +1,217 @@
+file,column,definition
+data/accuracy.csv,condition,"Assistance condition: manual/Baseline, explainable/XAI, evaluative/EvalAI"
+data/accuracy.csv,trial_type,all or AI error condition/no_error
+data/accuracy.csv,n_trials,Number of trials
+data/accuracy.csv,n_participants,Number of participants
+data/accuracy.csv,n_correct,Correct provision selections
+data/accuracy.csv,accuracy,Proportion correct
+data/distance.csv,condition,"Assistance condition: manual/Baseline, explainable/XAI, evaluative/EvalAI"
+data/distance.csv,errorType,Injected error regime; AI arms only
+data/distance.csv,confusionDistance,"Ordinal distance, 0 correct to 3 farthest"
+data/distance.csv,n,Number of observations
+data/explanation_quality.csv,condition,"Assistance condition: manual/Baseline, explainable/XAI, evaluative/EvalAI"
+data/explanation_quality.csv,outcome,Coder-rated dimension
+data/explanation_quality.csv,n_trials,Number of trials
+data/explanation_quality.csv,n_participants,Number of participants
+data/explanation_quality.csv,mean,Arithmetic mean
+data/explanation_quality.csv,sd,Sample standard deviation
+data/models/H1_descriptives_by_condition.csv,condition,"Assistance condition: manual/Baseline, explainable/XAI, evaluative/EvalAI"
+data/models/H1_descriptives_by_condition.csv,n,Number of observations
+data/models/H1_descriptives_by_condition.csv,mean,Arithmetic mean
+data/models/H1_descriptives_by_condition.csv,std,Sample standard deviation
+data/models/H1_descriptives_by_condition_errorType.csv,condition,"Assistance condition: manual/Baseline, explainable/XAI, evaluative/EvalAI"
+data/models/H1_descriptives_by_condition_errorType.csv,errorType,Injected error regime; AI arms only
+data/models/H1_descriptives_by_condition_errorType.csv,n,Number of observations
+data/models/H1_descriptives_by_condition_errorType.csv,mean,Arithmetic mean
+data/models/H1_descriptives_by_condition_errorType.csv,std,Sample standard deviation
+data/models/H1_exploratory_GLM_covariates_HC1_tidy.csv,model,Named statistical specification
+data/models/H1_exploratory_GLM_covariates_HC1_tidy.csv,term,Design-matrix coefficient or threshold label
+data/models/H1_exploratory_GLM_covariates_HC1_tidy.csv,coef,Unstandardized coefficient on model scale
+data/models/H1_exploratory_GLM_covariates_HC1_tidy.csv,se,Standard error for specified covariance estimator
+data/models/H1_exploratory_GLM_covariates_HC1_tidy.csv,z,Normal-reference test statistic
+data/models/H1_exploratory_GLM_covariates_HC1_tidy.csv,p,Reported p-value for specified model/test
+data/models/H1_exploratory_GLM_covariates_HC1_tidy.csv,ci_low,Lower 95% interval endpoint
+data/models/H1_exploratory_GLM_covariates_HC1_tidy.csv,ci_high,Upper 95% interval endpoint
+data/models/H1_OR_by_errorType.csv,contrast,Linear contrast label
+data/models/H1_OR_by_errorType.csv,OR,Odds ratio
+data/models/H1_OR_by_errorType.csv,CI_low,Lower 95% odds-ratio endpoint
+data/models/H1_OR_by_errorType.csv,CI_high,Upper 95% odds-ratio endpoint
+data/models/H1_OR_by_errorType.csv,p,Reported p-value for specified model/test
+data/models/H1_primary_GLM_HC1_tidy.csv,model,Named statistical specification
+data/models/H1_primary_GLM_HC1_tidy.csv,term,Design-matrix coefficient or threshold label
+data/models/H1_primary_GLM_HC1_tidy.csv,coef,Unstandardized coefficient on model scale
+data/models/H1_primary_GLM_HC1_tidy.csv,se,Standard error for specified covariance estimator
+data/models/H1_primary_GLM_HC1_tidy.csv,z,Normal-reference test statistic
+data/models/H1_primary_GLM_HC1_tidy.csv,p,Reported p-value for specified model/test
+data/models/H1_primary_GLM_HC1_tidy.csv,ci_low,Lower 95% interval endpoint
+data/models/H1_primary_GLM_HC1_tidy.csv,ci_high,Upper 95% interval endpoint
+data/models/H1_robustA_GLM_cluster_tidy.csv,model,Named statistical specification
+data/models/H1_robustA_GLM_cluster_tidy.csv,term,Design-matrix coefficient or threshold label
+data/models/H1_robustA_GLM_cluster_tidy.csv,coef,Unstandardized coefficient on model scale
+data/models/H1_robustA_GLM_cluster_tidy.csv,se,Standard error for specified covariance estimator
+data/models/H1_robustA_GLM_cluster_tidy.csv,z,Normal-reference test statistic
+data/models/H1_robustA_GLM_cluster_tidy.csv,p,Reported p-value for specified model/test
+data/models/H1_robustA_GLM_cluster_tidy.csv,ci_low,Lower 95% interval endpoint
+data/models/H1_robustA_GLM_cluster_tidy.csv,ci_high,Upper 95% interval endpoint
+data/models/H2_robust_covariates_tidy.csv,model,Named statistical specification
+data/models/H2_robust_covariates_tidy.csv,term,Design-matrix coefficient or threshold label
+data/models/H2_robust_covariates_tidy.csv,coef,Unstandardized coefficient on model scale
+data/models/H2_robust_covariates_tidy.csv,se,Standard error for specified covariance estimator
+data/models/H2_robust_covariates_tidy.csv,z,Normal-reference test statistic
+data/models/H2_robust_covariates_tidy.csv,p,Reported p-value for specified model/test
+data/models/H2_robust_covariates_tidy.csv,ci_low,Lower 95% interval endpoint
+data/models/H2_robust_covariates_tidy.csv,ci_high,Upper 95% interval endpoint
+data/models/H2_robust_covariates_tidy.csv,is_threshold,True for an ordered-logit threshold parameter
+data/models/H2a_companion_participant_robust.csv,term,Design-matrix coefficient or threshold label
+data/models/H2a_companion_participant_robust.csv,coef,Unstandardized coefficient on model scale
+data/models/H2a_companion_participant_robust.csv,se,Standard error for specified covariance estimator
+data/models/H2a_companion_participant_robust.csv,p,Reported p-value for specified model/test
+data/models/H2a_companion_participant_robust.csv,ci_low,Lower 95% interval endpoint
+data/models/H2a_companion_participant_robust.csv,ci_high,Upper 95% interval endpoint
+data/models/H2a_primary_prereg_no_caseFE_tidy.csv,model,Named statistical specification
+data/models/H2a_primary_prereg_no_caseFE_tidy.csv,term,Design-matrix coefficient or threshold label
+data/models/H2a_primary_prereg_no_caseFE_tidy.csv,coef,Unstandardized coefficient on model scale
+data/models/H2a_primary_prereg_no_caseFE_tidy.csv,se,Standard error for specified covariance estimator
+data/models/H2a_primary_prereg_no_caseFE_tidy.csv,z,Normal-reference test statistic
+data/models/H2a_primary_prereg_no_caseFE_tidy.csv,p,Reported p-value for specified model/test
+data/models/H2a_primary_prereg_no_caseFE_tidy.csv,ci_low,Lower 95% interval endpoint
+data/models/H2a_primary_prereg_no_caseFE_tidy.csv,ci_high,Upper 95% interval endpoint
+data/models/H2a_primary_prereg_no_caseFE_tidy.csv,is_threshold,True for an ordered-logit threshold parameter
+data/models/H2a_robust_design_caseFE_tidy.csv,model,Named statistical specification
+data/models/H2a_robust_design_caseFE_tidy.csv,term,Design-matrix coefficient or threshold label
+data/models/H2a_robust_design_caseFE_tidy.csv,coef,Unstandardized coefficient on model scale
+data/models/H2a_robust_design_caseFE_tidy.csv,se,Standard error for specified covariance estimator
+data/models/H2a_robust_design_caseFE_tidy.csv,z,Normal-reference test statistic
+data/models/H2a_robust_design_caseFE_tidy.csv,p,Reported p-value for specified model/test
+data/models/H2a_robust_design_caseFE_tidy.csv,ci_low,Lower 95% interval endpoint
+data/models/H2a_robust_design_caseFE_tidy.csv,ci_high,Upper 95% interval endpoint
+data/models/H2a_robust_design_caseFE_tidy.csv,is_threshold,True for an ordered-logit threshold parameter
+data/models/H2a_robust_order_FE_tidy.csv,model,Named statistical specification
+data/models/H2a_robust_order_FE_tidy.csv,term,Design-matrix coefficient or threshold label
+data/models/H2a_robust_order_FE_tidy.csv,coef,Unstandardized coefficient on model scale
+data/models/H2a_robust_order_FE_tidy.csv,se,Standard error for specified covariance estimator
+data/models/H2a_robust_order_FE_tidy.csv,z,Normal-reference test statistic
+data/models/H2a_robust_order_FE_tidy.csv,p,Reported p-value for specified model/test
+data/models/H2a_robust_order_FE_tidy.csv,ci_low,Lower 95% interval endpoint
+data/models/H2a_robust_order_FE_tidy.csv,ci_high,Upper 95% interval endpoint
+data/models/H2a_robust_order_FE_tidy.csv,is_threshold,True for an ordered-logit threshold parameter
+data/models/H2b_primary_prereg_no_caseFE_tidy.csv,model,Named statistical specification
+data/models/H2b_primary_prereg_no_caseFE_tidy.csv,term,Design-matrix coefficient or threshold label
+data/models/H2b_primary_prereg_no_caseFE_tidy.csv,coef,Unstandardized coefficient on model scale
+data/models/H2b_primary_prereg_no_caseFE_tidy.csv,se,Standard error for specified covariance estimator
+data/models/H2b_primary_prereg_no_caseFE_tidy.csv,z,Normal-reference test statistic
+data/models/H2b_primary_prereg_no_caseFE_tidy.csv,p,Reported p-value for specified model/test
+data/models/H2b_primary_prereg_no_caseFE_tidy.csv,ci_low,Lower 95% interval endpoint
+data/models/H2b_primary_prereg_no_caseFE_tidy.csv,ci_high,Upper 95% interval endpoint
+data/models/H2b_primary_prereg_no_caseFE_tidy.csv,is_threshold,True for an ordered-logit threshold parameter
+data/models/H2b_robust_design_caseFE_tidy.csv,model,Named statistical specification
+data/models/H2b_robust_design_caseFE_tidy.csv,term,Design-matrix coefficient or threshold label
+data/models/H2b_robust_design_caseFE_tidy.csv,coef,Unstandardized coefficient on model scale
+data/models/H2b_robust_design_caseFE_tidy.csv,se,Standard error for specified covariance estimator
+data/models/H2b_robust_design_caseFE_tidy.csv,z,Normal-reference test statistic
+data/models/H2b_robust_design_caseFE_tidy.csv,p,Reported p-value for specified model/test
+data/models/H2b_robust_design_caseFE_tidy.csv,ci_low,Lower 95% interval endpoint
+data/models/H2b_robust_design_caseFE_tidy.csv,ci_high,Upper 95% interval endpoint
+data/models/H2b_robust_design_caseFE_tidy.csv,is_threshold,True for an ordered-logit threshold parameter
+data/models/H3b_timing_specifications.csv,specification,Timing preprocessing and controls
+data/models/H3b_timing_specifications.csv,coef,Unstandardized coefficient on model scale
+data/models/H3b_timing_specifications.csv,se,Standard error for specified covariance estimator
+data/models/H3b_timing_specifications.csv,p,Reported p-value for specified model/test
+data/models/H3b_timing_specifications.csv,ci_low,Lower 95% interval endpoint
+data/models/H3b_timing_specifications.csv,ci_high,Upper 95% interval endpoint
+data/models/H4_OLS_contrasts.csv,dv,Dependent variable
+data/models/H4_OLS_contrasts.csv,contrast,Linear contrast label
+data/models/H4_OLS_contrasts.csv,coef,Unstandardized coefficient on model scale
+data/models/H4_OLS_contrasts.csv,se,Standard error for specified covariance estimator
+data/models/H4_OLS_contrasts.csv,t,Model contrast statistic; see source estimator
+data/models/H4_OLS_contrasts.csv,p,Reported p-value for specified model/test
+data/models/H4_OLS_contrasts.csv,ci_low,Lower 95% interval endpoint
+data/models/H4_OLS_contrasts.csv,ci_high,Upper 95% interval endpoint
+data/models/H4_OLS_contrasts.csv,robust_se,Covariance estimator label
+data/models/H4_OLS_contrasts.csv,n,Number of observations
+data/models/H4_OLS_contrasts.csv,participants,Number of participants
+data/models/H4_OLS_tidy.csv,dv,Dependent variable
+data/models/H4_OLS_tidy.csv,term,Design-matrix coefficient or threshold label
+data/models/H4_OLS_tidy.csv,coef,Unstandardized coefficient on model scale
+data/models/H4_OLS_tidy.csv,se,Standard error for specified covariance estimator
+data/models/H4_OLS_tidy.csv,t,Model contrast statistic; see source estimator
+data/models/H4_OLS_tidy.csv,p,Reported p-value for specified model/test
+data/models/H4_OLS_tidy.csv,ci_low,Lower 95% interval endpoint
+data/models/H4_OLS_tidy.csv,ci_high,Upper 95% interval endpoint
+data/models/H4_OLS_tidy.csv,robust_se,Covariance estimator label
+data/models/H4_OLS_tidy.csv,n,Number of observations
+data/models/H4_OLS_tidy.csv,participants,Number of participants
+data/models/H5_accuracy_GLM_DiD_tidy.csv,model,Named statistical specification
+data/models/H5_accuracy_GLM_DiD_tidy.csv,term,Design-matrix coefficient or threshold label
+data/models/H5_accuracy_GLM_DiD_tidy.csv,coef,Unstandardized coefficient on model scale
+data/models/H5_accuracy_GLM_DiD_tidy.csv,se,Standard error for specified covariance estimator
+data/models/H5_accuracy_GLM_DiD_tidy.csv,z,Normal-reference test statistic
+data/models/H5_accuracy_GLM_DiD_tidy.csv,p,Reported p-value for specified model/test
+data/models/H5_accuracy_GLM_DiD_tidy.csv,ci_low,Lower 95% interval endpoint
+data/models/H5_accuracy_GLM_DiD_tidy.csv,ci_high,Upper 95% interval endpoint
+data/models/H5_accuracy_GLM_DiD_tidy.csv,OR,Odds ratio
+data/models/H5_accuracy_GLM_DiD_tidy.csv,OR_low,Lower 95% odds-ratio endpoint
+data/models/H5_accuracy_GLM_DiD_tidy.csv,OR_high,Upper 95% odds-ratio endpoint
+data/models/H5_accuracy_margins.csv,cond2,AI condition factor; explainable reference
+data/models/H5_accuracy_margins.csv,pair_errorType,Error regime assigned to participant pair
+data/models/H5_accuracy_margins.csv,post,"0 correct-AI trial, 1 error trial"
+data/models/H5_accuracy_margins.csv,pred,Model-predicted accuracy
+data/models/H5_accuracy_margins.csv,pred_lo,Lower prediction interval endpoint
+data/models/H5_accuracy_margins.csv,pred_hi,Upper prediction interval endpoint
+data/models/H5_accuracy_means_by_pairErrorType_post.csv,cond2,AI condition factor; explainable reference
+data/models/H5_accuracy_means_by_pairErrorType_post.csv,pair_errorType,Error regime assigned to participant pair
+data/models/H5_accuracy_means_by_pairErrorType_post.csv,post,"0 correct-AI trial, 1 error trial"
+data/models/H5_accuracy_means_by_pairErrorType_post.csv,acc_bin,Binary provision accuracy
+data/models/H5_descriptives_condition_pairErrorType_post.csv,cond2,AI condition factor; explainable reference
+data/models/H5_descriptives_condition_pairErrorType_post.csv,pair_errorType,Error regime assigned to participant pair
+data/models/H5_descriptives_condition_pairErrorType_post.csv,post,"0 correct-AI trial, 1 error trial"
+data/models/H5_descriptives_condition_pairErrorType_post.csv,acc_bin_mean,Arithmetic mean of acc_bin
+data/models/H5_descriptives_condition_pairErrorType_post.csv,acc_bin_std,Sample standard deviation of acc_bin
+data/models/H5_descriptives_condition_pairErrorType_post.csv,acc_bin_count,Number of observed trials of acc_bin
+data/models/H5_descriptives_condition_pairErrorType_post.csv,element_coverage_mean_mean,Arithmetic mean of element_coverage_mean
+data/models/H5_descriptives_condition_pairErrorType_post.csv,element_coverage_mean_std,Sample standard deviation of element_coverage_mean
+data/models/H5_descriptives_condition_pairErrorType_post.csv,element_coverage_mean_count,Number of observed trials of element_coverage_mean
+data/models/H5_descriptives_condition_pairErrorType_post.csv,proportionality_reasoning_mean_mean,Arithmetic mean of proportionality_reasoning_mean
+data/models/H5_descriptives_condition_pairErrorType_post.csv,proportionality_reasoning_mean_std,Sample standard deviation of proportionality_reasoning_mean
+data/models/H5_descriptives_condition_pairErrorType_post.csv,proportionality_reasoning_mean_count,Number of observed trials of proportionality_reasoning_mean
+data/models/H5_descriptives_condition_pairErrorType_post.csv,reasoning_depth_mean_mean,Arithmetic mean of reasoning_depth_mean
+data/models/H5_descriptives_condition_pairErrorType_post.csv,reasoning_depth_mean_std,Sample standard deviation of reasoning_depth_mean
+data/models/H5_descriptives_condition_pairErrorType_post.csv,reasoning_depth_mean_count,Number of observed trials of reasoning_depth_mean
+data/models/H5_descriptives_condition_pairErrorType_post.csv,perceived_overall_quality_mean_mean,Arithmetic mean of perceived_overall_quality_mean
+data/models/H5_descriptives_condition_pairErrorType_post.csv,perceived_overall_quality_mean_std,Sample standard deviation of perceived_overall_quality_mean
+data/models/H5_descriptives_condition_pairErrorType_post.csv,perceived_overall_quality_mean_count,Number of observed trials of perceived_overall_quality_mean
+data/models/H5_EoR_FD_OLS_tidy_all.csv,dv,Dependent variable
+data/models/H5_EoR_FD_OLS_tidy_all.csv,model,Named statistical specification
+data/models/H5_EoR_FD_OLS_tidy_all.csv,term,Design-matrix coefficient or threshold label
+data/models/H5_EoR_FD_OLS_tidy_all.csv,coef,Unstandardized coefficient on model scale
+data/models/H5_EoR_FD_OLS_tidy_all.csv,se,Standard error for specified covariance estimator
+data/models/H5_EoR_FD_OLS_tidy_all.csv,t,Model contrast statistic; see source estimator
+data/models/H5_EoR_FD_OLS_tidy_all.csv,p,Reported p-value for specified model/test
+data/models/H5_EoR_FD_OLS_tidy_all.csv,ci_low,Lower 95% interval endpoint
+data/models/H5_EoR_FD_OLS_tidy_all.csv,ci_high,Upper 95% interval endpoint
+data/models/H5_EoR_FD_OLS_tidy_all.csv,n_participants,Number of participants
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,dv,Dependent variable
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,model,Named statistical specification
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,term,Design-matrix coefficient or threshold label
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,coef,Unstandardized coefficient on model scale
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,se_cluster,Participant-clustered standard error
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,z,Normal-reference test statistic
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,p,Reported p-value for specified model/test
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,ci_low,Lower 95% interval endpoint
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,ci_high,Upper 95% interval endpoint
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,cumulative_OR,Cumulative odds ratio
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,cumulative_OR_low,Lower 95% cumulative odds-ratio endpoint
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,cumulative_OR_high,Upper 95% cumulative odds-ratio endpoint
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,n,Number of observations
+data/models/H5_EoR_sensitivity_ordered_logit_tidy_all.csv,participants,Number of participants
+data/models/H6_overbreadth_GLM_tidy.csv,model,Named statistical specification
+data/models/H6_overbreadth_GLM_tidy.csv,term,Design-matrix coefficient or threshold label
+data/models/H6_overbreadth_GLM_tidy.csv,coef,Unstandardized coefficient on model scale
+data/models/H6_overbreadth_GLM_tidy.csv,se,Standard error for specified covariance estimator
+data/models/H6_overbreadth_GLM_tidy.csv,z,Normal-reference test statistic
+data/models/H6_overbreadth_GLM_tidy.csv,p,Reported p-value for specified model/test
+data/models/H6_overbreadth_GLM_tidy.csv,ci_low,Lower 95% interval endpoint
+data/models/H6_overbreadth_GLM_tidy.csv,ci_high,Upper 95% interval endpoint
+data/models/H6_overbreadth_GLM_tidy.csv,OR,Odds ratio
+data/models/H6_overbreadth_GLM_tidy.csv,OR_low,Lower 95% odds-ratio endpoint
+data/models/H6_overbreadth_GLM_tidy.csv,OR_high,Upper 95% odds-ratio endpoint

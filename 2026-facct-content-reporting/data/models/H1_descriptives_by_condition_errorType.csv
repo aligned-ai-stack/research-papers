@@ -1,0 +1,7 @@
+condition,errorType,n,mean,std
+evaluative,near_miss,52,0.75,0.4372373160976031
+evaluative,overbreadth,48,0.7708333333333334,0.4247443953937941
+evaluative,out_of_scope,50,0.7,0.46291004988627565
+explainable,near_miss,52,0.25,0.4372373160976031
+explainable,overbreadth,54,0.4444444444444444,0.501569862575519
+explainable,out_of_scope,44,0.7272727272727273,0.4505106334669667

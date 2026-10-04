@@ -1,0 +1,31 @@
+{
+  "status": "local_package_not_deposited",
+  "target_repository": "4TU.ResearchData",
+  "title": "Aggregate data and software for AI at the Front Lines of Platform Governance",
+  "description": "Analysis of 900 reporting trials from 450 participants, with reported specifications and explicitly labelled companion analyses. Public aggregate data only.",
+  "version": "0.1.0",
+  "resource_types": [
+    "Dataset",
+    "Software"
+  ],
+  "related_publication": {
+    "doi": "10.1145/3805689.3812301",
+    "relation": "IsSupplementTo"
+  },
+  "publication_authors": [
+    "Marie-Therese Sekwenz",
+    "Shreyan Biswas",
+    "Rita Hermann-Gsenger",
+    "Ujwal Gadiraju"
+  ],
+  "dataset_creators": null,
+  "dataset_doi": null,
+  "data_license": "CC-BY-4.0",
+  "software_license": "MIT",
+  "pending": [
+    "Confirm dataset creators, affiliations and contact",
+    "Select 4TU subject category",
+    "Provide unsigned participant consent form for repository review"
+  ],
+  "prepared_on": "2026-10-04"
+}
